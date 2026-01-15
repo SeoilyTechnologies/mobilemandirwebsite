@@ -122,8 +122,8 @@
   <div class="footer-bottom">
 
     <ul class="footer-links">
-      <li><a href="privacy-policy">Privacy Policy</a></li>
-      <li><a href="terms-and-conditions">Terms & Conditions</a></li>
+      <li><a href="privacy-policy.php">Privacy Policy</a></li>
+      <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
     </ul>
 
      <ul class="footer-links">

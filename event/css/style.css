@@ -35,7 +35,7 @@ body {
 }
 
 .mr-2 {
-  margin-right: 5px;
+	margin-right: 5px;
 }
 
 .pt-0 {
@@ -117,6 +117,7 @@ body {
   grid-template-columns: 240px 1fr 240px;
   gap: 40px;
   align-items: start;
+  margin-bottom: 70px;
 }
 
 /* SHARED SIDE CARD */
@@ -156,13 +157,21 @@ body {
   color: #fff;
 }*/
 
+.app-download-image-appstore {
+  text-align: center;
+}
+
 .app-download-image-appstore img {
-  max-width: 100%;
+	max-width: 80%;
+}
+
+.app-download-image-playstore {
+  text-align: center;
 }
 
 .app-download-image-playstore img {
-  max-width: 100%;
-  margin-top: 15px;
+	max-width: 80%;
+	margin-top: 15px;
 }
 
 /* MAIN EVENT CARD */
@@ -247,7 +256,7 @@ body {
 }*/
 
 .locationl-outer {
-  display: flex;
+	display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -257,24 +266,24 @@ body {
 }
 
 .location-icon-outer-content p{
-  font-size: 14px;
-  margin-top: 4px;
+	font-size: 14px;
+	margin-top: 4px;
 }
 
 .loctaion-icon-outer-box {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .location-icon-outer {
-  background: #fff;
-  padding: 6px 10px;
-  margin-right: 10px;
-  border-radius: 5px;
+	background: #fff;
+	padding: 6px 10px;
+	margin-right: 10px;
+	border-radius: 5px;
 }
 
 .arrow {
-  text-align: right;
+	text-align: right;
 }
 
 /* RIGHT FREE CARD */
@@ -320,7 +329,7 @@ body {
 /* Title */
 .section-title {
   margin-bottom: 12px;
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-weight: 600;
 }
 
@@ -377,7 +386,7 @@ body {
 }
 
 .banner-slide {
-  min-width: calc(50% - 10px);
+  min-width: calc(62% - 10px);
 }
 
 .banner-slide img {
@@ -393,16 +402,16 @@ body {
 
 
 .bottom-about-content {
-  margin-top: 30px;
+	margin-top: 30px;
 }
 
-.bottom-about-content h4 {
-  margin-bottom: 5px;
+.bottom-about-content h3 {
+	margin-bottom: 5px;
 }
 
 .bottom-about-content p{
-  font-size: 14px;
-  line-height: 25px;
+	font-size: 14px;
+	line-height: 25px;
 }
 
 .gallery-section-outer {
@@ -414,6 +423,7 @@ body {
 
 .gallery-image img{
    max-width: 100%;
+   border-radius: 6px;
 }
 
 
@@ -426,8 +436,8 @@ body {
 }
 
 .event-footer-container {
-  max-width: 1200px;
-  margin: auto;
+	max-width: 1200px;
+	margin: auto;
 }
 
 .footer-top {
@@ -457,7 +467,7 @@ body {
 }
 
 .social {
-  display: flex;
+	display: flex;
 }
 
 .social a {
@@ -466,7 +476,7 @@ body {
 }
 
 .social a img {
-  width: 20px;
+	width: 20px;
 }
 
 .footer-col h4 {
@@ -499,13 +509,13 @@ body {
 }
 
 .designed-and-developed-text {
-  display: flex;
-  grid-gap: 5px;
-  /*align-items: center;*/
+	display: flex;
+	grid-gap: 5px;
+	/*align-items: center;*/
 }
 
 .designed-and-developed-text img {
-  height: 20px;
+	height: 20px;
 }
 
 
@@ -522,12 +532,12 @@ body {
 }
 
 .event-fixed-footer-container {
-  max-width: 1200px;
+	max-width: 1200px;
   margin: auto;
 }
 
 .event-fixed-footer-outer {
-  display: flex;
+	display: flex;
   justify-content: space-between;
 }
 
@@ -593,7 +603,8 @@ body {
   padding: 10px 16px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .footer-right button:hover {
@@ -601,8 +612,8 @@ body {
 }
 
 .fixed-footer-right-side {
-  display: flex;
-  grid-gap: 20px;
+	display: flex;
+	grid-gap: 20px;
 }
 
 
@@ -611,16 +622,15 @@ body {
    OPEN MORE INFO SECTION (STATIC)
 ============================== */
 
-.more-info h2 {
-  font-size: 24px;
-  font-weight: 600;
+.more-info h3 {
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 /* Card */
 .info-open-card {
   background: #fff;
-  border-radius: 14px;
+  border-radius: 6px;
   margin-bottom: 18px;
   overflow: hidden;
 }
@@ -704,3 +714,241 @@ body {
 }
 
 
+.watch-live-btn {
+  background: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+    border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.watch-live-btn:hover {
+  background: #e60000;
+}
+
+.play-icon {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.seven-day-event-heading-outer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+a.click-for-visit-button {
+    background: #6b3a00;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+@media (max-width: 992px){
+
+.event-grid {
+  display: inherit;
+}
+
+.side-card.app-card {
+  display: none !important;
+}
+
+.side-card.free-card {
+  display: none;
+}
+
+}
+
+
+@media (max-width: 767px){
+
+
+
+.nav a {
+  font-size: 20px;
+}
+
+}
+
+@media (max-width: 700px){
+
+.fixed-footer {
+  border-radius: 20px 20px 0px 0px;
+  background: #fff;
+  padding: 15px 20px 10px;
+}
+
+.footer-left {
+  display: none;
+}
+
+.fixed-footer-right-side {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+}
+
+
+@media (max-width: 650px){ 
+
+.nav a {
+  font-size: 12px;
+}
+
+}
+
+
+@media (max-width: 500px){  
+
+.sign-in-btn {
+  font-size: 12px;
+   padding: 10px 10px;
+}
+
+a.click-for-visit-button {
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.watch-live-btn {
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.logo img {
+    height: 34px;
+}
+
+.gallery-section-outer {
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.more-info h3 {
+  margin-bottom: 10px;
+}
+
+}
+
+
+@media (max-width: 480px){ 
+
+.event-page {
+  padding: 30px 17px;
+}
+
+.main-card h2 {
+  font-size: 18px;
+}
+
+}
+
+@media (max-width: 460px){ 
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.location-icon-outer-content p {
+  font-size: 12px;
+}
+
+.header-container {
+  padding: 0px 15px;
+}
+
+.event-page {
+  padding: 30px 15px;
+}
+
+.info-open-left {
+  font-size: 12px;
+}
+
+ }
+
+
+
+ @media (max-width: 440px){ 
+
+.logo img {
+  height: 32px;
+}
+
+.sign-in-btn {
+  font-size: 12px;
+  padding: 8px 9px;
+}
+
+
+a.click-for-visit-button {
+   font-size: 12px;
+  padding: 8px 9px;
+  white-space: pre;
+}
+
+.watch-live-btn {
+  font-size: 12px;
+  padding: 8px 9px;
+}
+
+}
+
+
+@media (max-width: 420px){  
+    .logo img {
+        height: 26px;
+    }
+
+  .sign-in-btn {
+  font-size: 10px;
+  padding: 6px 7px;
+}
+
+
+a.click-for-visit-button {
+   font-size: 10px;
+  padding: 6px 7px;
+  white-space: pre;
+}
+
+.watch-live-btn {
+  font-size: 10px;
+  padding: 6px 7px;
+}
+
+}
+
+
+@media (max-width: 390px){  
+
+.nav a {
+        font-size: 10px;
+    }
+
+    .header-container {
+      padding: 0px 10px;
+    }
+
+        .event-page {
+        padding: 20px 10px;
+    }
+
+}

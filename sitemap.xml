@@ -14,6 +14,9 @@
   <loc>https://mobilemandirapp.com/terms-and-conditions.php</loc>
   <priority>0.30</priority>
 </url>
-
+<url>
+  <loc>https://mobilemandirapp.com/event/ramkatha-jorasi-dham.php</loc>
+  <priority>1.00</priority>
+</url>
 
 </urlset>

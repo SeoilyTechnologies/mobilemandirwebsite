@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Header</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -66,8 +67,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="banner-wrap">
         <img src="images/banner.png" alt="Event Banner">
 
-        <button class="circle-btn left">‹</button>
-        <button class="share-btn">Share</button>
+        <!-- <button class="circle-btn left">‹</button>
+        <button class="share-btn">Share</button> -->
       </div>
 
       <h2>151-Kund Sahasra Chandi Maha Yagya and Shri Ram Katha</h2>
@@ -97,7 +98,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <p>Narnaul, Haryana 123001, India</p>
       </div>
         </div>
-        <div class="arrow">›</div>
+        <a href="https://maps.app.goo.gl/31bTa4CuLSpN99qX8" target="_blank" class="click-for-visit-button">Click for Visit</a>
+        <!-- <div class="arrow">›</div> -->
       </div>
 
       <div class="locationl-outer">
@@ -113,18 +115,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <p>Daily 3 hours of Divine Katha</p>
       </div>
         </div>
-        <div class="arrow">›</div>
+        <!-- <div class="arrow">›</div> -->
       </div>
 
 
       <div class="schedule-section">
+  <div class="seven-day-event-heading-outer">
   <h3 class="section-title">7-Day Event Program</h3>
+<button class="watch-live-btn">
+  <span class="play-icon">▶</span>
+  Watch Live
+</button>
+</div>
 
   <div class="schedule-card">
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 1 - 24 Jan, 2026</h4>
+        <h4>24 Jan, 2026 (Day 1)</h4>
         <p>Shiv Vivah</p>
       </div>
     </div>
@@ -132,7 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 2 - 25 Jan, 2026</h4>
+        <h4>25 Jan, 2026 (Day 2)</h4>
         <p>Shri Ram Janam</p>
       </div>
     </div>
@@ -140,7 +148,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 3 - 26 Jan, 2026 </h4>
+        <h4>26 Jan, 2026 (Day 3)</h4>
         <p>Baal Leela</p>
       </div>
     </div>
@@ -148,7 +156,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 4 - 27 Jan, 2026</h4>
+        <h4>27 Jan, 2026 (Day 4)</h4>
         <p>Shri Sita Ram Vivah</p>
       </div>
     </div>
@@ -156,7 +164,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 5 - 28 Jan, 2026</h4>
+        <h4>28 Jan, 2026 (Day 5)</h4>
         <p>Van Gamn, Kevat Charitar</p>
       </div>
     </div>
@@ -164,7 +172,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 6 - 29 Jan, 2026</h4>
+        <h4>29 Jan, 2026 (Day 6)</h4>
         <p>Shabri Prem, Shri Hanumat Charitar</p>
       </div>
     </div>
@@ -172,7 +180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 7 - 30 Jan, 2026</h4>
+        <h4>30 Jan, 2026 (Day 7)</h4>
         <p>Ravan Vadh, Shri Ram Raja Abhishek</p>
       </div>
     </div>
@@ -192,50 +200,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
       <div class="bottom-about-content">
-          <h4>About the event</h4>
+          <h3>About the event</h3>
           <p>Yeh 7 din ki Ram Katha Bhagwan Ram ke jeevan ki pavitra gatha hai, jisme Ram janm se Rajyabhishek tak ki yatra ka varnan hoga.Roz 3 ghante bhajan, kirtan, pravachan aur aarti hogi, aur 7ve din vishesh Maha Aarti aur Prasad Vitaran ka aayojan rahega.</p>
       </div>
 
       <div class="bottom-about-content">
-          <h4>Gallery</h4>
+          <h3>Gallery</h3>
       </div>
 
       <div class="gallery-section-outer">
         <div class="gallery-image">
-          <img src="images/gallery.png">
+          <img src="images/g-1.jpg">
         </div>
         <div class="gallery-image">
-          <img src="images/gallery.png">
+          <img src="images/g-2.jpg">
         </div>
         <div class="gallery-image">
-          <img src="images/gallery.png">
+          <img src="images/g-3.jpg">
         </div>
         <div class="gallery-image">
-          <img src="images/gallery.png">
+          <img src="images/g-4.jpg">
         </div>
         <div class="gallery-image">
-          <img src="images/gallery.png">
+          <img src="images/g-5.jpg">
+        </div>
+        <div class="gallery-image">
+          <img src="images/g-6.jpg">
+        </div>
+        <div class="gallery-image">
+          <img src="images/g-7.jpg">
         </div>
       </div>
 
-
-      <div class="gallery-section-outer pt-0">
-        <div class="gallery-image">
-          <img src="images/gallery.png">
-        </div>
-        <div class="gallery-image">
-          <img src="images/gallery.png">
-        </div>
-        <div class="gallery-image">
-          <img src="images/gallery.png">
-        </div>
-        <div class="gallery-image">
-          <img src="images/gallery.png">
-        </div>
-        <div class="gallery-image">
-          <img src="images/gallery.png">
-        </div>
-      </div>
 
 
 <!-- <section class="more-info">
@@ -269,8 +265,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <section class="more-info">
-
-  <h2>More Info</h2>
+  
+  <h3>More Info</h3>
 
   <!-- CONTACT DETAIL CARD -->
   <div class="info-open-card">
@@ -382,7 +378,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- RIGHT FREE ENTRY -->
     <div class="side-card free-card">
-      <h4>Lorem Ipsum</h4>
+      <h4>Book Pass for Event</h4>
       <div class="free-text">★ FREE ★<br><span>ENTRY</span></div>
       <button class="book-btn">Book Event</button>
     </div>
@@ -392,11 +388,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<footer class="footer">
+<!-- <footer class="footer">
   <div class="event-footer-container">
     <div class="footer-top">
 
-    <!-- Logo -->
     <div class="footer-col">
       <div class="brand">
        <img src="images/logo.png">
@@ -411,7 +406,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </div>
 
-    <!-- Quick Links -->
     <div class="footer-col">
       <h4>Quick Links</h4>
       <a href="#">Home</a>
@@ -419,7 +413,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <a href="#">About Us</a>
     </div>
 
-    <!-- Support -->
     <div class="footer-col">
       <h4>Support</h4>
       <a href="#">Privacy Policy</a>
@@ -427,7 +420,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <a href="#">Support Center</a>
     </div>
 
-    <!-- App -->
     <div class="footer-col">
       <h4>Download the App</h4>
       <img src="images/appstore.png" />
@@ -445,7 +437,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
  </div>
 </footer>
-
+ -->
 
 
 <!-- Page Content -->
@@ -459,7 +451,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div>
   <div class="footer-left">
     <img src="images/gallery.png" alt="event">
-    <p>Lorem ipsum dolor sit amet, consec<br>tetur adipiscing</p>
+    <p>151 कुंडीय सहस्त्र चंडी महायज्ञ एवं श्री राम कथा<br>
+    151-Kund Sahasra Chandi Maha Yagya and Shri Ram Katha</p>
   </div>
   </div>
 

@@ -7,8 +7,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /> -->
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4RSR8XS');</script>
+<!-- End Google Tag Manager -->
+
 </head>
 <body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4RSR8XS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 
 <header class="site-header">
   <div class="header-container">
@@ -20,7 +32,7 @@
 
     <!-- Navigation -->
     <nav class="nav">
-      <a href="#">151 कुंडीय सहस्त्र चंडी महायज्ञ एवं श्री राम कथा</a>
+      <a>151 कुंडीय सहस्त्र चंडी महायज्ञ एवं श्री राम कथा</a>
       <!-- <a href="#">Aarti</a>
       <a href="#">Upcoming</a>
       <a href="#">Subscribe</a> -->
@@ -40,7 +52,7 @@
 
     <!-- LEFT APP CARD -->
     <div class="side-card app-card">
-      <p class="small-text">Get the complete Dharmayana experience on the</p>
+      <p class="small-text">Get the complete experience on the</p>
       <h3>Mobile Mandir App</h3>
 
   <!--<button class="store-btn apple"> Available on the App Store</button>
@@ -58,7 +70,7 @@
         <button class="share-btn">Share</button>
       </div>
 
-      <h2>Lorem ipsum dolor sit amet, consec tetur adipiscing</h2>
+      <h2>151-Kund Sahasra Chandi Maha Yagya and Shri Ram Katha</h2>
 
       <div class="pill">
         <i class="fa fa-calendar mr-2"></i> 24–30 Jan, 2026
@@ -74,15 +86,15 @@
       </div> -->
       <div class="locationl-outer">
     <!--<div class="loction-icon">
-      		<i class="fa fa-map-marker"></i>
-      	</div>-->
-      	<div class="loctaion-icon-outer-box">
-      	<div class="location-icon-outer">
-      		<i class="fa fa-map-marker"></i>
-      	  </div>
-      	  <div class="location-icon-outer-content">
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Directions</p>
+          <i class="fa fa-map-marker"></i>
+        </div>-->
+        <div class="loctaion-icon-outer-box">
+        <div class="location-icon-outer">
+          <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="location-icon-outer-content">
+          <h4>Shree Shyam Mandir, Jorasi Dham</h4>
+          <p>Narnaul, Haryana 123001, India</p>
       </div>
         </div>
         <div class="arrow">›</div>
@@ -90,15 +102,15 @@
 
       <div class="locationl-outer">
     <!--<div class="loction-icon">
-      		<i class="fa fa-map-marker"></i>
-      	</div>-->
-      	<div class="loctaion-icon-outer-box">
-      	<div class="location-icon-outer">
-      		<i class="fa fa-clock-o"></i>
-      	  </div>
-      	  <div class="location-icon-outer-content">
-          <h4>Lorem ipsum dolor sit amet</h4>
-          <p>Directions</p>
+          <i class="fa fa-map-marker"></i>
+        </div>-->
+        <div class="loctaion-icon-outer-box">
+        <div class="location-icon-outer">
+          <i class="fa fa-clock-o"></i>
+          </div>
+          <div class="location-icon-outer-content">
+          <h4>Evening: 3:00 PM – 6:00 PM</h4>
+          <p>Daily 3 hours of Divine Katha</p>
       </div>
         </div>
         <div class="arrow">›</div>
@@ -106,14 +118,14 @@
 
 
       <div class="schedule-section">
-  <h3 class="section-title">Lorem ipsum dolor sit</h3>
+  <h3 class="section-title">7-Day Event Program</h3>
 
   <div class="schedule-card">
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>Day 1 - 24 Jan, 2026</h4>
-        <p>Ram Janm & Bal Leela</p>
+        <p>Shiv Vivah</p>
       </div>
     </div>
 
@@ -121,15 +133,15 @@
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>Day 2 - 25 Jan, 2026</h4>
-        <p>Education, Learning, and Marriage</p>
+        <p>Shri Ram Janam</p>
       </div>
     </div>
 
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
-        <h4>Day 3 - 26 Jan, 2026</h4>
-        <p>Vanvas and Sita Haran</p>
+        <h4>Day 3 - 26 Jan, 2026 </h4>
+        <p>Baal Leela</p>
       </div>
     </div>
 
@@ -137,7 +149,7 @@
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>Day 4 - 27 Jan, 2026</h4>
-        <p>Hanuman Ji Ki Khoj</p>
+        <p>Shri Sita Ram Vivah</p>
       </div>
     </div>
 
@@ -145,7 +157,7 @@
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>Day 5 - 28 Jan, 2026</h4>
-        <p>Lanka Dehan & Yudh</p>
+        <p>Van Gamn, Kevat Charitar</p>
       </div>
     </div>
 
@@ -153,7 +165,7 @@
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>Day 6 - 29 Jan, 2026</h4>
-        <p>Vijay & Aayodheya Vapsi</p>
+        <p>Shabri Prem, Shri Hanumat Charitar</p>
       </div>
     </div>
 
@@ -161,7 +173,7 @@
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>Day 7 - 30 Jan, 2026</h4>
-        <p>Coronation and Divine Majesty</p>
+        <p>Ravan Vadh, Shri Ram Raja Abhishek</p>
       </div>
     </div>
   </div>
@@ -181,7 +193,7 @@
 
       <div class="bottom-about-content">
           <h4>About the event</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+          <p>Yeh 7 din ki Ram Katha Bhagwan Ram ke jeevan ki pavitra gatha hai, jisme Ram janm se Rajyabhishek tak ki yatra ka varnan hoga.Roz 3 ghante bhajan, kirtan, pravachan aur aarti hogi, aur 7ve din vishesh Maha Aarti aur Prasad Vitaran ka aayojan rahega.</p>
       </div>
 
       <div class="bottom-about-content">
@@ -189,21 +201,21 @@
       </div>
 
       <div class="gallery-section-outer">
-      	<div class="gallery-image">
-      		<img src="images/gallery.png">
-      	</div>
-      	<div class="gallery-image">
-      		<img src="images/gallery.png">
-      	</div>
-      	<div class="gallery-image">
-      		<img src="images/gallery.png">
-      	</div>
-      	<div class="gallery-image">
-      		<img src="images/gallery.png">
-      	</div>
-      	<div class="gallery-image">
-      		<img src="images/gallery.png">
-      	</div>
+        <div class="gallery-image">
+          <img src="images/gallery.png">
+        </div>
+        <div class="gallery-image">
+          <img src="images/gallery.png">
+        </div>
+        <div class="gallery-image">
+          <img src="images/gallery.png">
+        </div>
+        <div class="gallery-image">
+          <img src="images/gallery.png">
+        </div>
+        <div class="gallery-image">
+          <img src="images/gallery.png">
+        </div>
       </div>
 
 
@@ -226,7 +238,7 @@
       </div>
 
 
-<section class="more-info">
+<!-- <section class="more-info">
   <h2>More Info</h2>
 
   <div class="info-card" onclick="toggleContent(this, 'faq')">
@@ -253,7 +265,117 @@
 <div class="content" id="terms">
   <p>By accessing this application, you agree to all terms and conditions.</p>
 </div>
+</section> -->
+
+
+<section class="more-info">
+
+  <h2>More Info</h2>
+
+  <!-- CONTACT DETAIL CARD -->
+  <div class="info-open-card">
+
+    <div class="info-open-header" onclick="toggleInfo(this)">
+      <div class="info-open-left">
+        <i class="fa fa-phone"></i>
+        <span>Contact Detail</span>
+      </div>
+      <i class="fa fa-chevron-up"></i>
+    </div>
+
+    <div class="info-open-content">
+      <p><strong>Aryavart Seva Nyas – Data Security Cell</strong></p>
+      <p>
+        <i class="fa fa-envelope mr-2"></i>
+        aryavartsevanyas@gmail.com
+      </p>
+      <p>
+        <i class="fa fa-phone mr-2"></i>
+        +91-9257999088
+      </p>
+    </div>
+
+  </div>
+
+  <!-- PRIVACY POLICY CARD -->
+  <div class="info-open-card">
+
+    <div class="info-open-header" onclick="toggleInfo(this)">
+      <div class="info-open-left">
+        <i class="fa fa-file-text-o"></i>
+        <span>Privacy Policy</span>
+      </div>
+      <i class="fa fa-chevron-up"></i>
+    </div>
+
+    <div class="info-open-content">
+
+      <p>
+        This policy explains how Aryavart Seva Trust collects, uses, and
+        protects your personal information during the enrollment process.
+      </p>
+
+      <h4>Information We Collect</h4>
+      <ul>
+        <li>Name and contact details (mobile number)</li>
+        <li>Government-issued ID (Aadhaar, Voter ID, Passport, or Driving License)</li>
+        <li>Enrollment details (ID, date, and time)</li>
+        <li>Technical data (IP address, device, browser, and security logs)</li>
+      </ul>
+
+      <h4>How We Collect Information</h4>
+      <ul>
+        <li>When you submit the enrollment form (online or offline)</li>
+        <li>Automatically through cookies and local storage for security and session management</li>
+        <li>Through authorized staff of the Help Center</li>
+      </ul>
+
+      <h4>Use of Information</h4>
+      <ul>
+        <li>To verify identity and complete enrollment</li>
+        <li>For scheduling, access control, and administrative purposes</li>
+        <li>To ensure system security and prevent fraud</li>
+      </ul>
+
+      <h4>Data Sharing</h4>
+      <ul>
+        <li>Shared only with authorized personnel on a need-to-know basis</li>
+        <li>Disclosed to government authorities if required by law</li>
+        <li>Never sold or used for marketing purposes</li>
+      </ul>
+
+      <h4>Enrollment & Admission Rules</h4>
+      <ul>
+        <li>Enrollment is valid only for the assigned date and time</li>
+        <li>Late entry will not be permitted</li>
+        <li>The same ID used during enrollment must be shown at admission</li>
+      </ul>
+
+      <h4>Data Security</h4>
+      <p>
+        All data is stored on secure servers using encryption, HTTPS,
+        and restricted access.
+      </p>
+
+      <h4>Legal Compliance</h4>
+      <p>
+        Any misuse or fraudulent activity may lead to legal action under
+        applicable Indian laws. Jurisdiction lies with the local courts
+        designated by the Trust.
+      </p>
+
+      <h4>Policy Updates</h4>
+      <p>
+        This policy may be updated periodically. Changes will be communicated
+        through our website or application.
+      </p>
+
+    </div>
+
+  </div>
+
 </section>
+
 
 
     </div>
@@ -473,20 +595,26 @@
 </script>
 
 <script>
-	function toggleContent(card, id) {
-  const content = document.getElementById(id);
+function toggleInfo(header) {
+  const card = header.parentElement;
+  const content = card.querySelector(".info-open-content");
+  const arrow = header.querySelector(".fa-chevron-up");
 
-  if (content.style.display === "block") {
+  const isOpen = content.style.display === "block";
+
+  // close
+  if (isOpen) {
     content.style.display = "none";
-    card.classList.remove("active");
-  } else {
+    arrow.style.transform = "rotate(180deg)";
+  } 
+  // open
+  else {
     content.style.display = "block";
-    card.classList.add("active");
+    arrow.style.transform = "rotate(0deg)";
   }
 }
-
-
 </script>
+
 
 
 

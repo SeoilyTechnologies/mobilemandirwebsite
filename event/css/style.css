@@ -35,7 +35,7 @@ body {
 }
 
 .mr-2 {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 .pt-0 {
@@ -84,7 +84,7 @@ body {
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Sign In Button */
@@ -157,12 +157,12 @@ body {
 }*/
 
 .app-download-image-appstore img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .app-download-image-playstore img {
-	max-width: 100%;
-	margin-top: 15px;
+  max-width: 100%;
+  margin-top: 15px;
 }
 
 /* MAIN EVENT CARD */
@@ -247,7 +247,7 @@ body {
 }*/
 
 .locationl-outer {
-	display: flex;
+  display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -257,24 +257,24 @@ body {
 }
 
 .location-icon-outer-content p{
-	font-size: 14px;
-	margin-top: 4px;
+  font-size: 14px;
+  margin-top: 4px;
 }
 
 .loctaion-icon-outer-box {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .location-icon-outer {
-	background: #fff;
-	padding: 6px 10px;
-	margin-right: 10px;
-	border-radius: 5px;
+  background: #fff;
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 .arrow {
-	text-align: right;
+  text-align: right;
 }
 
 /* RIGHT FREE CARD */
@@ -393,16 +393,16 @@ body {
 
 
 .bottom-about-content {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .bottom-about-content h4 {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .bottom-about-content p{
-	font-size: 14px;
-	line-height: 25px;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 .gallery-section-outer {
@@ -426,8 +426,8 @@ body {
 }
 
 .event-footer-container {
-	max-width: 1200px;
-	margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .footer-top {
@@ -457,7 +457,7 @@ body {
 }
 
 .social {
-	display: flex;
+  display: flex;
 }
 
 .social a {
@@ -466,7 +466,7 @@ body {
 }
 
 .social a img {
-	width: 20px;
+  width: 20px;
 }
 
 .footer-col h4 {
@@ -499,13 +499,13 @@ body {
 }
 
 .designed-and-developed-text {
-	display: flex;
-	grid-gap: 5px;
-	/*align-items: center;*/
+  display: flex;
+  grid-gap: 5px;
+  /*align-items: center;*/
 }
 
 .designed-and-developed-text img {
-	height: 20px;
+  height: 20px;
 }
 
 
@@ -522,12 +522,12 @@ body {
 }
 
 .event-fixed-footer-container {
-	max-width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .event-fixed-footer-outer {
-	display: flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -601,62 +601,106 @@ body {
 }
 
 .fixed-footer-right-side {
-	display: flex;
-	grid-gap: 20px;
+  display: flex;
+  grid-gap: 20px;
 }
 
 
+
+/* ==============================
+   OPEN MORE INFO SECTION (STATIC)
+============================== */
 
 .more-info h2 {
   font-size: 24px;
-  margin-bottom: 20px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
-.info-card {
+/* Card */
+.info-open-card {
   background: #fff;
-  border-radius: 12px;
-  padding: 16px 20px;
-  margin-bottom: 12px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  overflow: hidden;
+}
+
+/* Header */
+.info-open-header {
+  background: #ffd9b3;
+  padding: 14px 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.info-open-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.info-open-left i {
+  font-size: 18px;
+  color: #7a3e00;
+}
+
+/* Content */
+.info-open-content {
+  padding: 16px 20px 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.info-open-content p {
+  margin-bottom: 12px;
+}
+
+.info-open-content h4 {
+  margin: 14px 0 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+
+.info-open-content ul {
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+.info-open-content ul li {
+  margin-bottom: 6px;
+}
+
+/* Accordion animation */
+.info-open-content {
+  display: block; /* open by default */
+}
+
+.info-open-header {
   cursor: pointer;
 }
 
-.left {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  justify-content: center;
-}
-
-.left i {
-  font-size: 18px;
-}
-
-.left span {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.content {
-  background: #fff;
-  border-radius: 12px;
-  padding: 16px 20px;
-  margin-bottom: 16px;
-  font-size: 14px;
-  line-height: 1.6;
-  display: none;
-}
-
-.arrow {
+.info-open-header i.fa-chevron-up {
   transition: transform 0.3s ease;
 }
 
-/* Rotate arrow when open */
-.info-card.active .arrow {
-  transform: rotate(90deg);
+/* Accordion default state */
+.info-open-content {
+  display: none;
+}
+
+.info-open-header {
+  cursor: pointer;
+}
+
+.info-open-header i.fa-chevron-up {
+  transition: transform 0.3s ease;
+  transform: rotate(180deg); /* arrow points down when closed */
+  font-size: 14px;
 }
 
 

@@ -3,14 +3,49 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>MobileMandir — Aarti, Chalisa, Katha & Mantra App</title>
-<meta name="description" content="Experience devotion on the go with MobileMandir: Aarti, Chalisa, Katha & Mantra videos with lyrics, horoscope, daily rashi & festival timings — all in one app.">
+<title>Mobile Mandir App | Aarti, Chalisa, Katha & Mantra Lyrics in Hind</title>
+<meta name="description" content="Mobile Mandir App – Aarti, Chalisa, Katha aur Mantra lyrics
+Hindi mein daily puja, bhakti aur adhyatmik path ke liye.">
+<meta name="keywords" content="Mobile Mandir App, Aarti lyrics Hindi, Chalisa lyrics, Bhajan lyrics
+Hindi, Mantra lyrics, Hindu devotional app, daily puja app, mandir app">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mobilemandirapp.com/">
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Mobile Mandir App | Hindi Aarti, Bhajan & Mantra Lyrics">
+<meta property="og:description" content="Hindi Aarti, Bhajan, Chalisa aur Mantra lyrics daily bhakti
+aur puja ke liye ek simple devotional app.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mobilemandirapp.com/">
+<meta property="og:image" content="https://mobilemandirapp.com/images/aarti.jpg">
+<meta property="og:site_name" content="Mobile Mandir App">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mobile Mandir App | Hindi Aarti & Bhajan Lyrics">
+<meta name="twitter:description" content="Daily puja aur bhakti ke liye Hindi Aarti, Bhajan aur
+Mantra lyrics.">
+<meta name="twitter:image" content="https://mobilemandirapp.com/images/aarti.jpg">
+<!-- <meta name="description" content="Mobile Mandir App – Aarti, Chalisa, Katha aur Mantra lyrics Hindi mein daily puja, bhakti aur adhyatmik path ke liye.">
+<meta name="keywords" content="Mobile Mandir App, Aarti lyrics Hindi, Chalisa lyrics, Bhajan lyrics Hindi, Mantra lyrics, Hindu devotional app, daily puja app, mandir app">
+<meta name="robots" content="index, follow"> -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <!-- Font Awesome 4 (legacy) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="icon" href="images/favicon-color.png" type="image/gif" sizes="100x100">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4RSR8XS');</script>
+<!-- End Google Tag Manager -->
+
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4RSR8XS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- <header class="header">
   <div class="header-left">

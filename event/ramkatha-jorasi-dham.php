@@ -69,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Sign In -->
     <div class="auth">
-      <a href="https://wa.aisensy.com/aaavw5" target="_blank" class="sign-in-btn">Book Event</a>
+      <a href="https://wa.aisensy.com/aaavw5" target="_blank" class="sign-in-btn">टिकट बुक करें</a>
     </div>
 
   </div>
@@ -99,11 +99,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <button class="share-btn">Share</button> -->
       </div>
 
-      <h2>151-Kund Sahasra Chandi Maha Yagya and Shri Ram Katha</h2>
-
+      <h2>151 कुंडीय सहस्त्र चंडी महायज्ञ एवं श्री राम कथा
+        <br>151-Kund Sahasra Chandi Maha Yagya and Shri Ram Katha</h2>
+    
+    <div class="header-date-and-timing">
+      <div class="pill">
+        <i class="fa fa-clock-o mr-2"></i> 3:00 PM – 6:00 PM
+      </div>
       <div class="pill">
         <i class="fa fa-calendar mr-2"></i> 24–30 Jan, 2026
       </div>
+      
+    </div>
 
       <!-- <div class="location">
         <div class="icon">📍</div>
@@ -113,6 +120,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
         <div class="arrow">›</div>
       </div> -->
+
+      <div class="locationl-outer-event">
+        <div class="locationl-outer-event-inner">
       <div class="locationl-outer">
     <!--<div class="loction-icon">
           <i class="fa fa-map-marker"></i>
@@ -126,7 +136,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <p>Narnaul, Haryana 123001, India</p>
       </div>
         </div>
-        <a href="https://maps.app.goo.gl/31bTa4CuLSpN99qX8" target="_blank" class="click-for-visit-button">Click for Visit</a>
+        <a href="https://maps.app.goo.gl/31bTa4CuLSpN99qX8" target="_blank" class="click-for-visit-button">Location</a>
         <!-- <div class="arrow">›</div> -->
       </div>
 
@@ -136,6 +146,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>-->
         <div class="loctaion-icon-outer-box">
         <div class="location-icon-outer">
+          <i class="fa fa-map-marker"></i>
+          </div>
+          <div class="location-icon-outer-content">
+          <h4>श्री श्याम मंदिर, जोरासी धाम</h4>
+          <p>नारनौल, हरियाणा 123001, भारत</p>
+      </div>
+        </div>
+        <a href="https://maps.app.goo.gl/31bTa4CuLSpN99qX8" target="_blank" class="click-for-visit-button">मैप देखें</a>
+        <!-- <div class="arrow">›</div> -->
+      </div>
+    </div>
+      
+      <div class="location-icon-mobileview">
+        <a href="https://maps.app.goo.gl/31bTa4CuLSpN99qX8" target="_blank"><img src="images/mobile-location.png"></a>
+      </div>
+
+      </div>
+
+      <!-- <div class="locationl-outer">
+  
+        <div class="loctaion-icon-outer-box">
+        <div class="location-icon-outer">
           <i class="fa fa-clock-o"></i>
           </div>
           <div class="location-icon-outer-content">
@@ -143,25 +175,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <p>Daily 3 hours of Divine Katha</p>
       </div>
         </div>
-        <!-- <div class="arrow">›</div> -->
       </div>
+ -->
 
-
-      <div class="schedule-section">
+<div class="schedule-section">
   <div class="seven-day-event-heading-outer">
   <h3 class="section-title">7-Day Event Program</h3>
-<button class="watch-live-btn">
+
+
+<a class="watch-live-btn" href="https://www.youtube.com/watch?v=0R4o8OppLpc" target="_blank">
   <span class="play-icon">▶</span>
-  Watch Live
-</button>
+  <span class="watch-text">Watch Live</span>
+</a>
+
+
 </div>
 
-  <div class="schedule-card">
+  <div class="schedule-card  webview-days-by">
     <div class="day-item">
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>24 Jan, 2026 (Day 1)</h4>
-        <p>Shiv Vivah</p>
+        <p>Shiv Vivah | शिव विवाह</p>
       </div>
     </div>
 
@@ -169,7 +204,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>25 Jan, 2026 (Day 2)</h4>
-        <p>Shri Ram Janam</p>
+        <p>Shri Ram Janam | श्री राम जन्म</p>
       </div>
     </div>
 
@@ -177,7 +212,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>26 Jan, 2026 (Day 3)</h4>
-        <p>Baal Leela</p>
+        <p>Baal Leela | बाल लीला</p>
       </div>
     </div>
 
@@ -185,7 +220,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>27 Jan, 2026 (Day 4)</h4>
-        <p>Shri Sita Ram Vivah</p>
+        <p>Shri Sita Ram Vivah | श्री सीता राम विवाह</p>
       </div>
     </div>
 
@@ -193,7 +228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>28 Jan, 2026 (Day 5)</h4>
-        <p>Van Gamn, Kevat Charitar</p>
+        <p>Van Gamn, Kevat Charitar | वन गमन एवं केवट चरित्र</p>
       </div>
     </div>
 
@@ -201,7 +236,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>29 Jan, 2026 (Day 6)</h4>
-        <p>Shabri Prem, Shri Hanumat Charitar</p>
+        <p>Shabri Prem, Shri Hanumat Charitar | शबरी प्रेम एवं श्री हनुमान चरित्र</p>
       </div>
     </div>
 
@@ -209,10 +244,71 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="icon"><i class="fa fa-calendar"></i></div>
       <div class="text">
         <h4>30 Jan, 2026 (Day 7)</h4>
-        <p>Ravan Vadh, Shri Ram Raja Abhishek</p>
+        <p>Ravan Vadh, Shri Ram Raja Abhishek | रावण वध एवं श्री राम राज्याभिषेक</p>
       </div>
     </div>
   </div>
+
+
+  <div class="schedule-card mobileview-days-by">
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>24 Jan, 2026 (Day 1)</h4>
+        <p>Shiv Vivah <br> शिव विवाह</p>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>25 Jan, 2026 (Day 2)</h4>
+        <p>Shri Ram Janam <br> श्री राम जन्म</p>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>26 Jan, 2026 (Day 3)</h4>
+        <p>Baal Leela <br> बाल लीला</p>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>27 Jan, 2026 (Day 4)</h4>
+        <p>Shri Sita Ram Vivah <br> श्री सीता राम विवाह</p>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>28 Jan, 2026 (Day 5)</h4>
+        <p>Van Gamn, Kevat Charitar <br> वन गमन एवं केवट चरित्र</p>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>29 Jan, 2026 (Day 6)</h4>
+        <p>Shabri Prem, Shri Hanumat Charitar <br> शबरी प्रेम एवं श्री हनुमान चरित्र</p>
+      </div>
+    </div>
+
+    <div class="day-item">
+      <div class="icon"><i class="fa fa-calendar"></i></div>
+      <div class="text">
+        <h4>30 Jan, 2026 (Day 7)</h4>
+        <p>Ravan Vadh, Shri Ram Raja Abhishek <br> रावण वध एवं श्री राम राज्याभिषेक</p>
+      </div>
+    </div>
+  </div>
+
+
 </div>
 
 
@@ -229,7 +325,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <div class="bottom-about-content">
           <h3>About the event</h3>
-          <p>Yeh 7 din ki Ram Katha Bhagwan Ram ke jeevan ki pavitra gatha hai, jisme Ram janm se Rajyabhishek tak ki yatra ka varnan hoga.Roz 3 ghante bhajan, kirtan, pravachan aur aarti hogi, aur 7ve din vishesh Maha Aarti aur Prasad Vitaran ka aayojan rahega.</p>
+          <p>यह 7 दिनों की राम कथा भगवान राम के जीवन की पवित्र गाथा है, जिसमें राम जन्म से लेकर राज्याभिषेक तक की यात्रा का वर्णन किया जाएगा। प्रतिदिन 3 घंटे भजन, कीर्तन, प्रवचन एवं आरती होगी, तथा सातवें दिन विशेष महा आरती और प्रसाद वितरण का आयोजन किया जाएगा।</p>
       </div>
 
       <div class="bottom-about-content">
@@ -408,7 +504,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="side-card free-card">
       <h4>Book Pass for Event</h4>
       <div class="free-text">★ FREE ★<br><span>ENTRY</span></div>
-      <div class="book-btn-outer"><a href="https://wa.aisensy.com/aaavw5" target="_blank" class="book-btn">Book Event</a></div>
+      <div class="book-btn-outer"><a href="https://wa.aisensy.com/aaavw5" target="_blank" class="book-btn">Book Ticket</a></div>
     </div>
 
   </div>
@@ -491,7 +587,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 
   <div class="footer-right">
-    <a href="https://wa.aisensy.com/aaavw5" target="_blank">Book Event</a>
+    <a href="https://wa.aisensy.com/aaavw5" target="_blank">Book Ticket</a>
   </div>
 </div>
 </div>
@@ -639,6 +735,40 @@ function toggleInfo(header) {
     arrow.style.transform = "rotate(0deg)";
   }
 }
+</script>
+
+
+<script>
+  const watchText = document.querySelector(".watch-text");
+
+  const texts = ["Watch Live", "लाइव देखें"];
+  let i = 0;
+
+  let maxWidth = 0;
+  let maxHeight = 0;
+
+  // Lock width & height to largest text
+  texts.forEach(text => {
+    watchText.textContent = text;
+    maxWidth = Math.max(maxWidth, watchText.offsetWidth);
+    maxHeight = Math.max(maxHeight, watchText.offsetHeight);
+  });
+
+  watchText.textContent = texts[0];
+  watchText.style.minWidth = maxWidth + "px";
+  watchText.style.minHeight = maxHeight + "px";
+
+  setInterval(() => {
+    watchText.style.opacity = "0";
+    watchText.style.transform = "translateY(-4px)";
+
+    setTimeout(() => {
+      i = (i + 1) % texts.length;
+      watchText.textContent = texts[i];
+      watchText.style.opacity = "1";
+      watchText.style.transform = "translateY(0)";
+    }, 300);
+  }, 1200);
 </script>
 
 

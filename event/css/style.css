@@ -229,6 +229,7 @@ body {
   border-radius: 20px;
   font-size: 12px;
   margin-bottom: 16px;
+  font-weight: bold;
 }
 
 /* Location */
@@ -375,6 +376,7 @@ body {
   font-size: 12px;
   color: #333;
   margin-top: 4px;
+  font-weight: bold;
 }
 
 
@@ -753,7 +755,7 @@ body {
   color: #ffffff;
   border: none;
   padding: 10px 16px;
-    border-radius: 6px;
+  border-radius: 6px;
   font-size: 14px;
   font-weight: bold;
   display: inline-flex;
@@ -761,6 +763,9 @@ body {
   gap: 6px;
   cursor: pointer;
   margin-bottom: 20px;
+  box-shadow: 0 0 0 rgba(255,0,0,0.6);
+  animation: pulse 1.5s infinite;
+  text-decoration: none;
 }
 
 .watch-live-btn:hover {
@@ -772,6 +777,22 @@ body {
   line-height: 1;
 }
 
+.watch-text {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  white-space: nowrap;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255,0,0,0.6); }
+  70% { box-shadow: 0 0 0 10px rgba(255,0,0,0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,0,0,0); }
+}
+
+
+
 .seven-day-event-heading-outer {
   display: flex;
   justify-content: space-between;
@@ -781,11 +802,23 @@ body {
 a.click-for-visit-button {
     background: #6b3a00;
     color: #fff;
-    padding: 10px 16px;
+    padding: 10px 0px;
     border-radius: 6px;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    width: 90px;
+    text-align: center;
+}
+
+.header-date-and-timing {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.mobileview-days-by, .location-icon-mobileview {
+  display: none;
 }
 
 
@@ -820,10 +853,60 @@ a.click-for-visit-button {
 
 @media (max-width: 767px){
 
+  .mobileview-days-by {
+   display: flex;
+  }
 
+  .webview-days-by {
+    display: none;
+  }
+
+.text p {
+  line-height: 20px;
+  font-weight: bold;
+}
 
 .nav a {
   font-size: 20px;
+}
+
+
+.location-icon-mobileview {
+  display: inherit;
+}
+
+
+.locationl-outer-event {
+    background: #fff;
+    border: 1px solid #d4b08c;
+    padding: 14px 10px 0px;
+    margin-bottom: 22px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.locationl-outer {
+  border-bottom: none;
+  margin-bottom: 4px;
+}
+
+.location-icon-outer {
+  background: #f3e6d8;
+}
+
+.location-icon-mobileview a img{
+  height: 40px;
+  margin-right: 15px;
+}
+
+.click-for-visit-button {
+  display: none;
+}
+
+.pill {
+  font-weight: bold;
 }
 
 }

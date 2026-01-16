@@ -319,6 +319,8 @@ body {
   font-size: 16px;
   cursor: pointer;
   font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 }
 
 
@@ -635,6 +637,7 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .footer-right a:hover {

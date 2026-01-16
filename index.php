@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Mobile Mandir App | Aarti, Chalisa, Katha & Mantra Lyrics in Hind</title>
+<title>Mobile Mandir App | Aarti, Chalisa, Katha & Mantra for Devotees </title>
 <meta name="description" content="Mobile Mandir App – Aarti, Chalisa, Katha aur Mantra lyrics
 Hindi mein daily puja, bhakti aur adhyatmik path ke liye.">
 <meta name="keywords" content="Mobile Mandir App, Aarti lyrics Hindi, Chalisa lyrics, Bhajan lyrics

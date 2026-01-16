@@ -3,11 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Header</title>
+  
+<title>151 Kund Chandi Maha Yagya & Shri Ram Katha | Jorasi Dham</title>
+<meta name="description" content="151 Kund Chandi Maha Yagya and Shri Ram Katha from 24–30
+Jan 2026 at Jorasi Dham, Narnaul. A 7-day divine Ram Katha on Mobile Mandir App.">
+<meta name="keywords" content="151 Kund Chandi Maha Yagya, Shri Ram Katha Jorasi Dham, Ram
+Katha Narnaul, Ramcharitmanas Katha, Hindu Religious Event Haryana, Ram Bhakti, Mobile Mandir
+App">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mobilemandirapp.com/event/ramkatha-jorasi-dham.php">
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="151 Kund Chandi Maha Yagya & Shri Ram Katha | Jorasi Dham">
+<meta property="og:description" content="7-day spiritual event from 24–30 Jan 2026 at Jorasi
+Dham, Narnaul featuring 151 Kund Chandi Maha Yagya and Shri Ram Katha on Mobile Mandir
+App.">
+<meta property="og:type" content="event">
+<meta property="og:url" content="https://mobilemandirapp.com/event/ramkatha-jorasi-
+dham.php">
+<meta property="og:image" content="https://mobilemandirapp.com/event/images/banner.png">
+<meta property="og:site_name" content="Mobile Mandir App">
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="151 Kund Chandi Maha Yagya & Shri Ram Katha | Jorasi
+Dham">
+<meta name="twitter:description" content="Join the 151 Kund Chandi Maha Yagya and Shri Ram
+Katha at Jorasi Dham, Narnaul from 24–30 Jan 2026 on Mobile Mandir App.">
+<meta name="twitter:image" content="https://mobilemandirapp.com/event/images/banner.png">
+
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /> -->
+  <link rel="icon" href="images/favicon-color.png" type="image/gif" sizes="100x100">
 
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -41,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Sign In -->
     <div class="auth">
-      <a href="#" class="sign-in-btn">Book Event</a>
+      <a href="https://wa.aisensy.com/aaavw5" target="_blank" class="sign-in-btn">Book Event</a>
     </div>
 
   </div>
@@ -380,7 +408,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="side-card free-card">
       <h4>Book Pass for Event</h4>
       <div class="free-text">★ FREE ★<br><span>ENTRY</span></div>
-      <button class="book-btn">Book Event</button>
+      <div class="book-btn-outer"><a href="https://wa.aisensy.com/aaavw5" target="_blank" class="book-btn">Book Event</a></div>
     </div>
 
   </div>
@@ -463,7 +491,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 
   <div class="footer-right">
-    <button>Book Event</button>
+    <a href="https://wa.aisensy.com/aaavw5" target="_blank">Book Event</a>
   </div>
 </div>
 </div>
@@ -477,48 +505,65 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   const slider = document.querySelector(".banner-slider");
   let slides = document.querySelectorAll(".banner-slide");
 
-  const gap = 20;
-  const visible = 2;
-  let index = visible;
+  const GAP = 16;
+  let index = 1;
   let startX = 0;
   let currentTranslate = 0;
   let prevTranslate = 0;
   let isDragging = false;
   let autoSlide;
 
-  // Clone slides (for infinite loop)
-  for (let i = 0; i < visible; i++) {
-    slider.appendChild(slides[i].cloneNode(true));
-    slider.insertBefore(slides[slides.length - 1 - i].cloneNode(true), slider.firstChild);
+  /* ===== Clone Slides for Infinite Loop ===== */
+  slider.appendChild(slides[0].cloneNode(true));
+  slider.insertBefore(slides[slides.length - 1].cloneNode(true), slider.firstChild);
+  slides = document.querySelectorAll(".banner-slide");
+
+  function slideWidth() {
+    return slides[0].offsetWidth + GAP;
   }
 
-  slides = document.querySelectorAll(".banner-slide");
-  const slideWidth = slides[0].offsetWidth + gap;
+  function updateClasses() {
+    slides.forEach(slide => slide.className = "banner-slide");
+
+    slides[index].classList.add("active");
+    slides[index - 1]?.classList.add("prev");
+    slides[index + 1]?.classList.add("next");
+  }
 
   function setPosition() {
     slider.style.transform = `translateX(${currentTranslate}px)`;
+    updateClasses();
   }
 
   function setByIndex() {
-    slider.style.transition = "transform 0.5s ease";
-    currentTranslate = -index * slideWidth;
+    slider.style.transition = "transform 0.6s ease";
+
+    const viewport = window.innerWidth;
+    const slideW = slideWidth();
+
+    // Equal left & right visibility
+    const sidePeek = viewport < 768
+      ? viewport * 0.07   // 📱 ~7% each side
+      : slideW * 0.1;    // 💻 ~10% each side
+
+    currentTranslate = -index * slideW + sidePeek;
     setPosition();
   }
 
   setByIndex();
 
+  /* ===== Auto Slide ===== */
   function startAuto() {
     autoSlide = setInterval(() => {
       index++;
       setByIndex();
 
-      if (index >= slides.length - visible) {
+      if (index >= slides.length - 1) {
         setTimeout(() => {
           slider.style.transition = "none";
-          index = visible;
-          currentTranslate = -index * slideWidth;
-          setPosition();
-        }, 500);
+          index = 1;
+          setByIndex();
+        }, 600);
       }
     }, 3000);
   }
@@ -527,28 +572,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     clearInterval(autoSlide);
   }
 
-  // Mouse & Touch events
+  /* ===== Drag & Swipe ===== */
   function startDrag(e) {
     isDragging = true;
     startX = getX(e);
     prevTranslate = currentTranslate;
     slider.style.transition = "none";
-    slider.style.cursor = "grabbing";
     stopAuto();
   }
 
   function dragging(e) {
     if (!isDragging) return;
-    const currentX = getX(e);
-    const diff = currentX - startX;
-    currentTranslate = prevTranslate + diff;
+    currentTranslate = prevTranslate + (getX(e) - startX);
     setPosition();
   }
 
   function endDrag() {
     if (!isDragging) return;
     isDragging = false;
-    slider.style.cursor = "grab";
 
     const movedBy = currentTranslate - prevTranslate;
 
@@ -556,17 +597,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     if (movedBy > 80) index--;
 
     setByIndex();
-
-    // Loop fix
-    if (index <= 0) {
-      setTimeout(() => {
-        slider.style.transition = "none";
-        index = slides.length - visible * 2;
-        currentTranslate = -index * slideWidth;
-        setPosition();
-      }, 500);
-    }
-
     startAuto();
   }
 
@@ -574,7 +604,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     return e.type.includes("mouse") ? e.pageX : e.touches[0].clientX;
   }
 
-  // Events
   slider.addEventListener("mousedown", startDrag);
   slider.addEventListener("mousemove", dragging);
   slider.addEventListener("mouseup", endDrag);
@@ -584,8 +613,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   slider.addEventListener("touchmove", dragging);
   slider.addEventListener("touchend", endDrag);
 
+  window.addEventListener("resize", setByIndex);
+
   startAuto();
 </script>
+
+
 
 <script>
 function toggleInfo(header) {

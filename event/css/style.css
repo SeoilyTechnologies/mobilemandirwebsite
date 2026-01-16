@@ -35,7 +35,7 @@ body {
 }
 
 .mr-2 {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 .pt-0 {
@@ -162,7 +162,7 @@ body {
 }
 
 .app-download-image-appstore img {
-	max-width: 80%;
+  max-width: 80%;
 }
 
 .app-download-image-playstore {
@@ -170,8 +170,8 @@ body {
 }
 
 .app-download-image-playstore img {
-	max-width: 80%;
-	margin-top: 15px;
+  max-width: 80%;
+  margin-top: 15px;
 }
 
 /* MAIN EVENT CARD */
@@ -256,7 +256,7 @@ body {
 }*/
 
 .locationl-outer {
-	display: flex;
+  display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -266,24 +266,24 @@ body {
 }
 
 .location-icon-outer-content p{
-	font-size: 14px;
-	margin-top: 4px;
+  font-size: 14px;
+  margin-top: 4px;
 }
 
 .loctaion-icon-outer-box {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .location-icon-outer {
-	background: #fff;
-	padding: 6px 10px;
-	margin-right: 10px;
-	border-radius: 5px;
+  background: #fff;
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 .arrow {
-	text-align: right;
+  text-align: right;
 }
 
 /* RIGHT FREE CARD */
@@ -305,15 +305,20 @@ body {
   color: #000;
 }
 
-.book-btn {
+.book-btn-outer {
   width: 100%;
   background: #7a3e00;
   color: #fff;
-  border: none;
   padding: 14px;
-  border-radius: 12px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.book-btn {  
   font-size: 16px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 
@@ -373,27 +378,52 @@ body {
 
 
 
+/* ===== Banner Section ===== */
 .banner-section-bottom {
   overflow: hidden;
   margin-top: 30px;
+  padding: 0 6vw; /* REQUIRED for mobile side visibility */
 }
 
+/* ===== Slider Wrapper ===== */
 .banner-slider {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   cursor: grab;
   user-select: none;
+  align-items: center;
+  will-change: transform;
 }
 
+/* ===== Slides ===== */
 .banner-slide {
-  min-width: calc(62% - 10px);
+  flex-shrink: 0;
+  width: 80%;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  transform: scale(0.9);
+  opacity: 0.6;
+}
+
+.banner-slide.active {
+  transform: scale(1.05);
+  opacity: 1;
+  z-index: 3;
+}
+
+.banner-slide.prev,
+.banner-slide.next {
+  transform: scale(0.95);
+  opacity: 0.8;
+  z-index: 2;
 }
 
 .banner-slide img {
   width: 100%;
   border-radius: 10px;
   pointer-events: none;
+  display: block;
 }
+
 
 
 
@@ -402,16 +432,16 @@ body {
 
 
 .bottom-about-content {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .bottom-about-content h3 {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .bottom-about-content p{
-	font-size: 14px;
-	line-height: 25px;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 .gallery-section-outer {
@@ -436,8 +466,8 @@ body {
 }
 
 .event-footer-container {
-	max-width: 1200px;
-	margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .footer-top {
@@ -467,7 +497,7 @@ body {
 }
 
 .social {
-	display: flex;
+  display: flex;
 }
 
 .social a {
@@ -476,7 +506,7 @@ body {
 }
 
 .social a img {
-	width: 20px;
+  width: 20px;
 }
 
 .footer-col h4 {
@@ -509,13 +539,13 @@ body {
 }
 
 .designed-and-developed-text {
-	display: flex;
-	grid-gap: 5px;
-	/*align-items: center;*/
+  display: flex;
+  grid-gap: 5px;
+  /*align-items: center;*/
 }
 
 .designed-and-developed-text img {
-	height: 20px;
+  height: 20px;
 }
 
 
@@ -532,12 +562,12 @@ body {
 }
 
 .event-fixed-footer-container {
-	max-width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 
 .event-fixed-footer-outer {
-	display: flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -596,7 +626,7 @@ body {
 }
 
 /* Right */
-.footer-right button {
+.footer-right a {
   background: #6b3a00;
   color: #fff;
   border: none;
@@ -607,13 +637,14 @@ body {
   font-weight: bold;
 }
 
-.footer-right button:hover {
+.footer-right a:hover {
   background: #542d00;
 }
 
 .fixed-footer-right-side {
-	display: flex;
-	grid-gap: 20px;
+  display: flex;
+  grid-gap: 20px;
+  align-items: center;
 }
 
 
@@ -771,6 +802,18 @@ a.click-for-visit-button {
 
 }
 
+/* ===== Mobile Fix ===== */
+@media (max-width: 768px) {
+  .banner-slide {
+    width: 88%;
+  }
+
+  .banner-slide.active {
+    transform: scale(1.03);
+  }
+}
+
+
 
 @media (max-width: 767px){
 
@@ -835,6 +878,7 @@ a.click-for-visit-button {
 .gallery-section-outer {
   gap: 10px;
   padding: 10px 0px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .more-info h3 {

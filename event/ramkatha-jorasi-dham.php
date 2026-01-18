@@ -69,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- Sign In -->
     <div class="auth">
-      <a href="https://wa.aisensy.com/aaavw5" target="_blank" class="sign-in-btn">टिकट बुक करें</a>
+      <a href="https://wa.aisensy.com/aaawb9" target="_blank" class="sign-in-btn">टिकट बुक करें</a>
     </div>
 
   </div>
@@ -504,7 +504,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="side-card free-card">
       <h4>Book Pass for Event</h4>
       <div class="free-text">★ FREE ★<br><span>ENTRY</span></div>
-      <div class="book-btn-outer"><a href="https://wa.aisensy.com/aaavw5" target="_blank" class="book-btn">Book Ticket</a></div>
+      <div class="book-btn-outer"><a href="https://wa.aisensy.com/aaawb9" target="_blank" class="book-btn">Book Ticket</a></div>
     </div>
 
   </div>
@@ -587,7 +587,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </div>
 
   <div class="footer-right">
-    <a href="https://wa.aisensy.com/aaavw5" target="_blank">Book Ticket</a>
+    <a href="https://wa.aisensy.com/aaawb9" target="_blank">Book Ticket</a>
   </div>
 </div>
 </div>
